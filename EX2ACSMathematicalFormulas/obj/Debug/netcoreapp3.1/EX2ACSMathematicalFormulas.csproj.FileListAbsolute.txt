@@ -1,0 +1,11 @@
+B:\MSSA\ISTA 220 (C#)\Labs\EX2ACSMathematicalFormulas\EX2ACSMathematicalFormulas\obj\Debug\netcoreapp3.1\EX2ACSMathematicalFormulas.csprojAssemblyReference.cache
+B:\MSSA\ISTA 220 (C#)\Labs\EX2ACSMathematicalFormulas\EX2ACSMathematicalFormulas\obj\Debug\netcoreapp3.1\EX2ACSMathematicalFormulas.AssemblyInfoInputs.cache
+B:\MSSA\ISTA 220 (C#)\Labs\EX2ACSMathematicalFormulas\EX2ACSMathematicalFormulas\obj\Debug\netcoreapp3.1\EX2ACSMathematicalFormulas.AssemblyInfo.cs
+B:\MSSA\ISTA 220 (C#)\Labs\EX2ACSMathematicalFormulas\EX2ACSMathematicalFormulas\bin\Debug\netcoreapp3.1\EX2ACSMathematicalFormulas.exe
+B:\MSSA\ISTA 220 (C#)\Labs\EX2ACSMathematicalFormulas\EX2ACSMathematicalFormulas\bin\Debug\netcoreapp3.1\EX2ACSMathematicalFormulas.deps.json
+B:\MSSA\ISTA 220 (C#)\Labs\EX2ACSMathematicalFormulas\EX2ACSMathematicalFormulas\bin\Debug\netcoreapp3.1\EX2ACSMathematicalFormulas.runtimeconfig.json
+B:\MSSA\ISTA 220 (C#)\Labs\EX2ACSMathematicalFormulas\EX2ACSMathematicalFormulas\bin\Debug\netcoreapp3.1\EX2ACSMathematicalFormulas.runtimeconfig.dev.json
+B:\MSSA\ISTA 220 (C#)\Labs\EX2ACSMathematicalFormulas\EX2ACSMathematicalFormulas\bin\Debug\netcoreapp3.1\EX2ACSMathematicalFormulas.dll
+B:\MSSA\ISTA 220 (C#)\Labs\EX2ACSMathematicalFormulas\EX2ACSMathematicalFormulas\bin\Debug\netcoreapp3.1\EX2ACSMathematicalFormulas.pdb
+B:\MSSA\ISTA 220 (C#)\Labs\EX2ACSMathematicalFormulas\EX2ACSMathematicalFormulas\obj\Debug\netcoreapp3.1\EX2ACSMathematicalFormulas.dll
+B:\MSSA\ISTA 220 (C#)\Labs\EX2ACSMathematicalFormulas\EX2ACSMathematicalFormulas\obj\Debug\netcoreapp3.1\EX2ACSMathematicalFormulas.pdb
