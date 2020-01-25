@@ -33,8 +33,21 @@ namespace progex01
             // Part 2
             Console.WriteLine("\nPart 2, volume of a hemisphere.");
 
+        startPart2:
             // Implementation here
-            var thirdPowerRadius = radius * radius * radius;
+
+            Console.Write("Enter an number for the radius (greater than 0): ");
+            string strHemRadius = Console.ReadLine();
+            double hemRadius = double.Parse(strHemRadius);
+            bool greaterThanZeroHemRadius = hemRadius > 0;
+
+            if (!greaterThanZeroHemRadius)
+            {
+                Console.WriteLine("You provided a number less than 0");
+                goto startPart2;
+            }
+
+            var thirdPowerRadius = hemRadius * hemRadius * hemRadius;
             var volume = (4.0/3.0) * Math.PI * thirdPowerRadius * 0.5;
             Console.WriteLine($"The volume is {volume}");
            
