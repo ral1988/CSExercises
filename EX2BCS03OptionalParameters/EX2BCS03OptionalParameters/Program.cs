@@ -47,6 +47,4 @@ namespace EX2BCS03OptionalParameters
         }
     }
 }
-
-
  
