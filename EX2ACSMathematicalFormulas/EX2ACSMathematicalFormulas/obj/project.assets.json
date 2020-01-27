@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "B:\\MSSA\\ISTA 220 (C#)\\Labs\\EX2ACSMathematicalFormulas\\EX2ACSMathematicalFormulas\\EX2ACSMathematicalFormulas.csproj",
+      "projectUniqueName": "B:\\MSSA\\ISTA 220 (C#)\\Exercise\\EX2ACSMathematicalFormulas\\EX2ACSMathematicalFormulas\\EX2ACSMathematicalFormulas.csproj",
       "projectName": "EX2ACSMathematicalFormulas",
-      "projectPath": "B:\\MSSA\\ISTA 220 (C#)\\Labs\\EX2ACSMathematicalFormulas\\EX2ACSMathematicalFormulas\\EX2ACSMathematicalFormulas.csproj",
+      "projectPath": "B:\\MSSA\\ISTA 220 (C#)\\Exercise\\EX2ACSMathematicalFormulas\\EX2ACSMathematicalFormulas\\EX2ACSMathematicalFormulas.csproj",
       "packagesPath": "C:\\Users\\ryana\\.nuget\\packages\\",
-      "outputPath": "B:\\MSSA\\ISTA 220 (C#)\\Labs\\EX2ACSMathematicalFormulas\\EX2ACSMathematicalFormulas\\obj\\",
+      "outputPath": "B:\\MSSA\\ISTA 220 (C#)\\Exercise\\EX2ACSMathematicalFormulas\\EX2ACSMathematicalFormulas\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
