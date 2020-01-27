@@ -1,0 +1,11 @@
+B:\MSSA\ISTA 220 (C#)\Exercise\EX2BCS03OptionalParameters\EX2BCS03OptionalParameters\obj\Debug\netcoreapp3.1\EX2BCS03OptionalParameters.csprojAssemblyReference.cache
+B:\MSSA\ISTA 220 (C#)\Exercise\EX2BCS03OptionalParameters\EX2BCS03OptionalParameters\obj\Debug\netcoreapp3.1\EX2BCS03OptionalParameters.AssemblyInfoInputs.cache
+B:\MSSA\ISTA 220 (C#)\Exercise\EX2BCS03OptionalParameters\EX2BCS03OptionalParameters\obj\Debug\netcoreapp3.1\EX2BCS03OptionalParameters.AssemblyInfo.cs
+B:\MSSA\ISTA 220 (C#)\Exercise\EX2BCS03OptionalParameters\EX2BCS03OptionalParameters\bin\Debug\netcoreapp3.1\EX2BCS03OptionalParameters.exe
+B:\MSSA\ISTA 220 (C#)\Exercise\EX2BCS03OptionalParameters\EX2BCS03OptionalParameters\bin\Debug\netcoreapp3.1\EX2BCS03OptionalParameters.deps.json
+B:\MSSA\ISTA 220 (C#)\Exercise\EX2BCS03OptionalParameters\EX2BCS03OptionalParameters\bin\Debug\netcoreapp3.1\EX2BCS03OptionalParameters.runtimeconfig.json
+B:\MSSA\ISTA 220 (C#)\Exercise\EX2BCS03OptionalParameters\EX2BCS03OptionalParameters\bin\Debug\netcoreapp3.1\EX2BCS03OptionalParameters.runtimeconfig.dev.json
+B:\MSSA\ISTA 220 (C#)\Exercise\EX2BCS03OptionalParameters\EX2BCS03OptionalParameters\bin\Debug\netcoreapp3.1\EX2BCS03OptionalParameters.dll
+B:\MSSA\ISTA 220 (C#)\Exercise\EX2BCS03OptionalParameters\EX2BCS03OptionalParameters\bin\Debug\netcoreapp3.1\EX2BCS03OptionalParameters.pdb
+B:\MSSA\ISTA 220 (C#)\Exercise\EX2BCS03OptionalParameters\EX2BCS03OptionalParameters\obj\Debug\netcoreapp3.1\EX2BCS03OptionalParameters.dll
+B:\MSSA\ISTA 220 (C#)\Exercise\EX2BCS03OptionalParameters\EX2BCS03OptionalParameters\obj\Debug\netcoreapp3.1\EX2BCS03OptionalParameters.pdb
