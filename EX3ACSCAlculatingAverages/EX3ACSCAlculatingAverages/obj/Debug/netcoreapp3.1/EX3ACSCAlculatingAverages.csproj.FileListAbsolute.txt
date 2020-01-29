@@ -1,0 +1,13 @@
+B:\MSSA\ISTA 220 (C#)\Exercise\EX3ACSCAlculatingAverages\EX3ACSCAlculatingAverages\bin\Debug\netcoreapp3.1\EX3ACSCAlculatingAverages.exe
+B:\MSSA\ISTA 220 (C#)\Exercise\EX3ACSCAlculatingAverages\EX3ACSCAlculatingAverages\bin\Debug\netcoreapp3.1\EX3ACSCAlculatingAverages.deps.json
+B:\MSSA\ISTA 220 (C#)\Exercise\EX3ACSCAlculatingAverages\EX3ACSCAlculatingAverages\bin\Debug\netcoreapp3.1\EX3ACSCAlculatingAverages.runtimeconfig.json
+B:\MSSA\ISTA 220 (C#)\Exercise\EX3ACSCAlculatingAverages\EX3ACSCAlculatingAverages\bin\Debug\netcoreapp3.1\EX3ACSCAlculatingAverages.runtimeconfig.dev.json
+B:\MSSA\ISTA 220 (C#)\Exercise\EX3ACSCAlculatingAverages\EX3ACSCAlculatingAverages\bin\Debug\netcoreapp3.1\EX3ACSCAlculatingAverages.dll
+B:\MSSA\ISTA 220 (C#)\Exercise\EX3ACSCAlculatingAverages\EX3ACSCAlculatingAverages\bin\Debug\netcoreapp3.1\EX3ACSCAlculatingAverages.pdb
+B:\MSSA\ISTA 220 (C#)\Exercise\EX3ACSCAlculatingAverages\EX3ACSCAlculatingAverages\obj\Debug\netcoreapp3.1\EX3ACSCAlculatingAverages.AssemblyInfoInputs.cache
+B:\MSSA\ISTA 220 (C#)\Exercise\EX3ACSCAlculatingAverages\EX3ACSCAlculatingAverages\obj\Debug\netcoreapp3.1\EX3ACSCAlculatingAverages.AssemblyInfo.cs
+B:\MSSA\ISTA 220 (C#)\Exercise\EX3ACSCAlculatingAverages\EX3ACSCAlculatingAverages\obj\Debug\netcoreapp3.1\EX3ACSCAlculatingAverages.dll
+B:\MSSA\ISTA 220 (C#)\Exercise\EX3ACSCAlculatingAverages\EX3ACSCAlculatingAverages\obj\Debug\netcoreapp3.1\EX3ACSCAlculatingAverages.pdb
+B:\MSSA\ISTA 220 (C#)\Exercise\EX3ACSCAlculatingAverages\EX3ACSCAlculatingAverages\obj\Debug\netcoreapp3.1\EX3ACSCAlculatingAverages.csprojAssemblyReference.cache
+B:\MSSA\ISTA 220 (C#)\Exercise\EX3ACSCAlculatingAverages\EX3ACSCAlculatingAverages\bin\Debug\netcoreapp3.1\nunit.framework.dll
+B:\MSSA\ISTA 220 (C#)\Exercise\EX3ACSCAlculatingAverages\EX3ACSCAlculatingAverages\obj\Debug\netcoreapp3.1\EX3ACSCAlculatingAverages.csproj.CopyComplete
