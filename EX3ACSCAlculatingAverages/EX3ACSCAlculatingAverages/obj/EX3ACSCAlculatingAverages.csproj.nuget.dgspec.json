@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "B:\\MSSA\\ISTA 220 (C#)\\Exercise\\EX3ACSCAlculatingAverages\\EX3ACSCAlculatingAverages\\EX3ACSCAlculatingAverages.csproj": {}
+    "B:\\MSSA\\ISTA 220 (C#)\\Exercise\\EX3ACSCalculatingAverages\\EX3ACSCAlculatingAverages\\EX3ACSCAlculatingAverages.csproj": {}
   },
   "projects": {
-    "B:\\MSSA\\ISTA 220 (C#)\\Exercise\\EX3ACSCAlculatingAverages\\EX3ACSCAlculatingAverages\\EX3ACSCAlculatingAverages.csproj": {
+    "B:\\MSSA\\ISTA 220 (C#)\\Exercise\\EX3ACSCalculatingAverages\\EX3ACSCAlculatingAverages\\EX3ACSCAlculatingAverages.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "B:\\MSSA\\ISTA 220 (C#)\\Exercise\\EX3ACSCAlculatingAverages\\EX3ACSCAlculatingAverages\\EX3ACSCAlculatingAverages.csproj",
+        "projectUniqueName": "B:\\MSSA\\ISTA 220 (C#)\\Exercise\\EX3ACSCalculatingAverages\\EX3ACSCAlculatingAverages\\EX3ACSCAlculatingAverages.csproj",
         "projectName": "EX3ACSCAlculatingAverages",
-        "projectPath": "B:\\MSSA\\ISTA 220 (C#)\\Exercise\\EX3ACSCAlculatingAverages\\EX3ACSCAlculatingAverages\\EX3ACSCAlculatingAverages.csproj",
+        "projectPath": "B:\\MSSA\\ISTA 220 (C#)\\Exercise\\EX3ACSCalculatingAverages\\EX3ACSCAlculatingAverages\\EX3ACSCAlculatingAverages.csproj",
         "packagesPath": "C:\\Users\\ryana\\.nuget\\packages\\",
-        "outputPath": "B:\\MSSA\\ISTA 220 (C#)\\Exercise\\EX3ACSCAlculatingAverages\\EX3ACSCAlculatingAverages\\obj\\",
+        "outputPath": "B:\\MSSA\\ISTA 220 (C#)\\Exercise\\EX3ACSCalculatingAverages\\EX3ACSCAlculatingAverages\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

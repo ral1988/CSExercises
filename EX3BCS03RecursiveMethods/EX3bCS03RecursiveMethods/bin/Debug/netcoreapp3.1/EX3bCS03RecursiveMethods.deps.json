@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "EX3bCS03RecursiveMethods/1.0.0": {
+        "runtime": {
+          "EX3bCS03RecursiveMethods.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EX3bCS03RecursiveMethods/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

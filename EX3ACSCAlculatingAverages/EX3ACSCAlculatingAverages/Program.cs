@@ -1,5 +1,4 @@
-﻿using NUnit.Framework;
-using System;
+﻿using System;
 
 namespace EX3ACSCAlculatingAverages
 {
@@ -119,6 +118,11 @@ namespace EX3ACSCAlculatingAverages
         {
             Console.Write($"Test Grade-{iteration}: ");
             string nums = Console.ReadLine();
+            if (nums == "")
+            {
+                Console.WriteLine("Please provide a number that is greater than 0 and less than 100");
+                continue;
+            }
             if (nums == "quit")
             {
                 break;
@@ -155,41 +159,49 @@ namespace EX3ACSCAlculatingAverages
         if ((avgGrade >= 95) && (avgGrade <= 100))
         {
             Console.WriteLine("Average letter grade is A");
+            return;
         }
         if ((avgGrade >= 90) && (avgGrade < 95))
         {
             Console.WriteLine("Average letter grade is A-");
+            return;
         }
         if ((avgGrade >= 85) && (avgGrade < 90))
         {
             Console.WriteLine("Average letter grade is B");
+            return;
         }
         if ((avgGrade >= 80) && (avgGrade < 85))
         {
             Console.WriteLine("Average letter grade is B-");
+            return;
         }
         if ((avgGrade >= 75) && (avgGrade < 80))
         {
             Console.WriteLine("Average letter grade is C");
+            return;
         }
         if ((avgGrade >= 70) && (avgGrade < 75))
         {
             Console.WriteLine("Average letter grade is C-");
+            return;
         }
         if ((avgGrade >= 65) && (avgGrade < 70))
         {
             Console.WriteLine("Average letter grade is D");
+            return;
         }
         if ((avgGrade >= 60) && (avgGrade < 65))
         {
             Console.WriteLine("Average letter grade is D-");
+            return;
         }
         if (avgGrade < 60)
         {
             Console.WriteLine("Students are failing");
+            return;
         }
     }
-    
 }
 
 

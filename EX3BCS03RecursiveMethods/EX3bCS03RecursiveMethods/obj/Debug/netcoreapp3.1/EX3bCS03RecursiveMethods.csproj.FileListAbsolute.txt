@@ -1,0 +1,11 @@
+B:\MSSA\ISTA 220 (C#)\Exercise\EX3bCS03RecursiveMethods\EX3bCS03RecursiveMethods\bin\Debug\netcoreapp3.1\EX3bCS03RecursiveMethods.exe
+B:\MSSA\ISTA 220 (C#)\Exercise\EX3bCS03RecursiveMethods\EX3bCS03RecursiveMethods\bin\Debug\netcoreapp3.1\EX3bCS03RecursiveMethods.deps.json
+B:\MSSA\ISTA 220 (C#)\Exercise\EX3bCS03RecursiveMethods\EX3bCS03RecursiveMethods\bin\Debug\netcoreapp3.1\EX3bCS03RecursiveMethods.runtimeconfig.json
+B:\MSSA\ISTA 220 (C#)\Exercise\EX3bCS03RecursiveMethods\EX3bCS03RecursiveMethods\bin\Debug\netcoreapp3.1\EX3bCS03RecursiveMethods.runtimeconfig.dev.json
+B:\MSSA\ISTA 220 (C#)\Exercise\EX3bCS03RecursiveMethods\EX3bCS03RecursiveMethods\bin\Debug\netcoreapp3.1\EX3bCS03RecursiveMethods.dll
+B:\MSSA\ISTA 220 (C#)\Exercise\EX3bCS03RecursiveMethods\EX3bCS03RecursiveMethods\bin\Debug\netcoreapp3.1\EX3bCS03RecursiveMethods.pdb
+B:\MSSA\ISTA 220 (C#)\Exercise\EX3bCS03RecursiveMethods\EX3bCS03RecursiveMethods\obj\Debug\netcoreapp3.1\EX3bCS03RecursiveMethods.AssemblyInfoInputs.cache
+B:\MSSA\ISTA 220 (C#)\Exercise\EX3bCS03RecursiveMethods\EX3bCS03RecursiveMethods\obj\Debug\netcoreapp3.1\EX3bCS03RecursiveMethods.AssemblyInfo.cs
+B:\MSSA\ISTA 220 (C#)\Exercise\EX3bCS03RecursiveMethods\EX3bCS03RecursiveMethods\obj\Debug\netcoreapp3.1\EX3bCS03RecursiveMethods.dll
+B:\MSSA\ISTA 220 (C#)\Exercise\EX3bCS03RecursiveMethods\EX3bCS03RecursiveMethods\obj\Debug\netcoreapp3.1\EX3bCS03RecursiveMethods.pdb
+B:\MSSA\ISTA 220 (C#)\Exercise\EX3bCS03RecursiveMethods\EX3bCS03RecursiveMethods\obj\Debug\netcoreapp3.1\EX3bCS03RecursiveMethods.csprojAssemblyReference.cache

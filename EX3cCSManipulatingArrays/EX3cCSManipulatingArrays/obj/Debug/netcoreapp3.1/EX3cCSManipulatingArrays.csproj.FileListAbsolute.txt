@@ -1,0 +1,11 @@
+B:\MSSA\ISTA 220 (C#)\Exercise\EX3cCSManipulatingArrays\EX3cCSManipulatingArrays\bin\Debug\netcoreapp3.1\EX3cCSManipulatingArrays.exe
+B:\MSSA\ISTA 220 (C#)\Exercise\EX3cCSManipulatingArrays\EX3cCSManipulatingArrays\bin\Debug\netcoreapp3.1\EX3cCSManipulatingArrays.deps.json
+B:\MSSA\ISTA 220 (C#)\Exercise\EX3cCSManipulatingArrays\EX3cCSManipulatingArrays\bin\Debug\netcoreapp3.1\EX3cCSManipulatingArrays.runtimeconfig.json
+B:\MSSA\ISTA 220 (C#)\Exercise\EX3cCSManipulatingArrays\EX3cCSManipulatingArrays\bin\Debug\netcoreapp3.1\EX3cCSManipulatingArrays.runtimeconfig.dev.json
+B:\MSSA\ISTA 220 (C#)\Exercise\EX3cCSManipulatingArrays\EX3cCSManipulatingArrays\bin\Debug\netcoreapp3.1\EX3cCSManipulatingArrays.dll
+B:\MSSA\ISTA 220 (C#)\Exercise\EX3cCSManipulatingArrays\EX3cCSManipulatingArrays\bin\Debug\netcoreapp3.1\EX3cCSManipulatingArrays.pdb
+B:\MSSA\ISTA 220 (C#)\Exercise\EX3cCSManipulatingArrays\EX3cCSManipulatingArrays\obj\Debug\netcoreapp3.1\EX3cCSManipulatingArrays.csprojAssemblyReference.cache
+B:\MSSA\ISTA 220 (C#)\Exercise\EX3cCSManipulatingArrays\EX3cCSManipulatingArrays\obj\Debug\netcoreapp3.1\EX3cCSManipulatingArrays.AssemblyInfoInputs.cache
+B:\MSSA\ISTA 220 (C#)\Exercise\EX3cCSManipulatingArrays\EX3cCSManipulatingArrays\obj\Debug\netcoreapp3.1\EX3cCSManipulatingArrays.AssemblyInfo.cs
+B:\MSSA\ISTA 220 (C#)\Exercise\EX3cCSManipulatingArrays\EX3cCSManipulatingArrays\obj\Debug\netcoreapp3.1\EX3cCSManipulatingArrays.dll
+B:\MSSA\ISTA 220 (C#)\Exercise\EX3cCSManipulatingArrays\EX3cCSManipulatingArrays\obj\Debug\netcoreapp3.1\EX3cCSManipulatingArrays.pdb
