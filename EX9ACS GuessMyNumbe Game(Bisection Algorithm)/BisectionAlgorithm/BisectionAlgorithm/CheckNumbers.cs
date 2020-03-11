@@ -7,7 +7,7 @@ namespace BisectionAlgorithm
 {
     class CheckNumbers
     {
-        public CheckNumbers()
+        static CheckNumbers()
         {
         }
 

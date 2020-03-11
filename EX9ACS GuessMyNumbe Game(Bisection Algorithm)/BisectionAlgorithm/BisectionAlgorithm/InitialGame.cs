@@ -12,13 +12,12 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using static BisectionAlgorithm.CheckNumbers;
 
 namespace BisectionAlgorithm
 {
     class InitialGame
     {
-        public InitialGame()
+        static InitialGame()
         {
             var check = new CheckNumbers();
             List<int> tenInts = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
