@@ -6,6 +6,7 @@ namespace BisectionAlgorithm
     {
         public static void Main(string[] args)
         {
+            Console.Clear();
             var menu = new Menu();
             menu.MenuOptions();
         }

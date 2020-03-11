@@ -7,9 +7,8 @@ namespace BisectionAlgorithm
 {
     class CheckNumbers
     {
-        CheckNumbers()
+        public CheckNumbers()
         {
-
         }
 
         public int IntCheck()
