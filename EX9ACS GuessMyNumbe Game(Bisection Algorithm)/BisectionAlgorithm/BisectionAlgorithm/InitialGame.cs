@@ -26,10 +26,12 @@ namespace BisectionAlgorithm
             Console.WriteLine("Enter a number between 1-10: ");
             check.InbetweenNumbersCheck(1, 10);
 
+
             foreach (var i in tenInts){}
             {
-                Console.WriteLine();
+                Console.WriteLine(tenInts);
             }
+
 
             
         }
