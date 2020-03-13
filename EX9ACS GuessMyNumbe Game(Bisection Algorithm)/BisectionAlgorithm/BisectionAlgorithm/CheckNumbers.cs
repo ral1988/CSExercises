@@ -36,14 +36,15 @@ namespace BisectionAlgorithm
 
         }
 
-        public int InbetweenNumbersCheck(int a, int b)
+        public int InbetweenNumbersCheck(int a, int b, string input)
         {
             int value = 0;
             bool returnError = false;
 
+            string userInput = input;
+
             do
             {
-                string userInput = Console.ReadLine();
                 bool quickCheck = int.TryParse(userInput, out _);
 
                 if (quickCheck == true)

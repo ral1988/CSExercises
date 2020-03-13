@@ -24,7 +24,15 @@ namespace BisectionAlgorithm
             
             Console.WriteLine("I am going to show you how I can guess your number using the bisection algorithm");
             Console.WriteLine("Enter a number between 1-10: ");
-            check.InbetweenNumbersCheck(1, 10);
+
+            for (int i = 1; i < 10; i++)
+            {
+                string input = Console.ReadLine();
+                check.InbetweenNumbersCheck(1, 10, input);
+                BisectionMethod.NumberTenGenerator();
+            }
+            
+            
 
 
             foreach (var i in tenInts){}
