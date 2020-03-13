@@ -10,7 +10,7 @@ namespace BisectionAlgorithm
         {
             double input = a;
 
-            double bisection = Math.Pow(input, 2) + input - 2;
+            double bisection = Math.Pow(input, 2) + input - 2; //is this the true bisection method
 
             return bisection;
         }
