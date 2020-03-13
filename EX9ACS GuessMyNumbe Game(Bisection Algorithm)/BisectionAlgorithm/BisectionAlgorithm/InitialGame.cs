@@ -52,17 +52,7 @@ namespace BisectionAlgorithm
                     break;
                 }
             }
-            
-            
 
-
-            foreach (var i in tenInts){}
-            {
-                Console.WriteLine(tenInts);
-            }
-
-
-            
         }
     }
 }

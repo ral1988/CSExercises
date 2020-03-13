@@ -16,5 +16,41 @@ namespace BisectionAlgorithm
 {
     class HumanPlayer
     {
+        static HumanPlayer()
+        {
+            var check = new CheckNumbers();
+            
+            Console.WriteLine("I am going to show you how I can guess your number using the bisection algorithm");
+            Console.WriteLine("Enter a number between 1-1000: ");
+            int numberToGuess = BisectionMethod.NumberHundredGenerator();
+
+                for (int i = 1; i < 100; i++) 
+                {
+                string input = Console.ReadLine();
+                check.InbetweenNumbersCheck(1, 100, input);
+
+                int convertToInt = int.Parse(input);
+
+                if (convertToInt > numberToGuess)
+                {
+                    Console.WriteLine("You guessed too high. Try again");
+                }
+
+                if (convertToInt < numberToGuess)
+                {
+                    Console.WriteLine("You guessed too low. Try again");
+                }
+
+                if (convertToInt == numberToGuess)
+                {
+                    Console.WriteLine("You guessed correctly!");
+                    Console.WriteLine($"It took you {i} tries to guess {numberToGuess}!");
+                    Console.WriteLine("Hit any key to continue");
+                    Console.ReadKey();
+                    
+                    break;
+                }
+            }
+        }
     }
 }

@@ -23,10 +23,10 @@ namespace BisectionAlgorithm
            return number;
         }
 
-        public static int NumberThousandGenerator()
+        public static int NumberHundredGenerator()
         {
             Random random = new Random();
-            int number = random.Next(1, 1000);
+            int number = random.Next(1, 100);
 
             return number;
         }
