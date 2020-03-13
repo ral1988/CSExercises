@@ -22,12 +22,12 @@ namespace BisectionAlgorithm
             
             Console.WriteLine("I am going to show you how I can guess your number using the bisection algorithm");
             Console.WriteLine("Enter a number between 1-1000: ");
-            int numberToGuess = BisectionMethod.NumberHundredGenerator();
+            int numberToGuess = BisectionMethod.NumberThousandGenerator();
 
-                for (int i = 1; i < 100; i++) 
+                for (int i = 1; i < 1000; i++) 
                 {
                 string input = Console.ReadLine();
-                check.InbetweenNumbersCheck(1, 100, input);
+                check.InbetweenNumbersCheck(1, 1000, input);
 
                 int convertToInt = int.Parse(input);
 
