@@ -1,18 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Text;
 
 namespace BisectionAlgorithm
 {
     public static class BisectionMethod
     {
-        public static double Calc(double a)
+        public static int ComputerGuess(int a, int b)
         {
-            double input = a;
+            int min = a;
+            int max = b;
 
-            double bisection = Math.Pow(input, 2) + input - 2; //is this the true bisection method
+            double guess = (min + max) * 0.5 ;
 
-            return bisection;
+            double math = Math.Round(guess, 0, MidpointRounding.AwayFromZero);
+
+            int computerGuess = Convert.ToInt32(math);
+
+
+            return computerGuess;
         }
 
         public static int NumberTenGenerator()
