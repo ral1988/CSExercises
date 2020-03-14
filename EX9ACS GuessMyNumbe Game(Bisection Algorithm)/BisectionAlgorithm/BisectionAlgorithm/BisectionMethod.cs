@@ -22,7 +22,5 @@ namespace BisectionAlgorithm
            return number;
         }  
         
-
-
     }
 }

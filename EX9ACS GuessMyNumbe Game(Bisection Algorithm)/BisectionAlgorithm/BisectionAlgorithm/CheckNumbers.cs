@@ -6,9 +6,10 @@ namespace BisectionAlgorithm
     {
         static CheckNumbers()
         {
+
         }
 
-        public int IntCheck()
+        public int IntCheck(string a)
         {
             //check for valid input and prompt end user with correction
             int value = 0;
@@ -16,7 +17,7 @@ namespace BisectionAlgorithm
 
             do
             {
-                string userInput = Console.ReadLine();
+                string userInput = a;
                 bool quickCheck = int.TryParse(userInput, out _);
 
                 if (quickCheck == true)
@@ -39,6 +40,8 @@ namespace BisectionAlgorithm
             bool returnError = false;
 
             string userInput = input;
+
+            IntCheck(userInput);
 
             do
             {
