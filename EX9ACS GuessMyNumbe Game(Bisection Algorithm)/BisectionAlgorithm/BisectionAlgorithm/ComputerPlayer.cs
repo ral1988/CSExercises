@@ -59,6 +59,8 @@ namespace BisectionAlgorithm
                         Console.WriteLine($"\nYay! I got the answer and it took me {i} tries.");
                         Console.WriteLine("Hit any key return to menu");
                         Console.ReadKey();
+                        arr[0] = 1;
+                        arr[1] = 100;
 
                         Console.Clear();
                         Menu.MenuOptions();

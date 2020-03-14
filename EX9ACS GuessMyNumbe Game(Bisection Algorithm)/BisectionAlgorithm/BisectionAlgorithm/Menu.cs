@@ -35,16 +35,19 @@ namespace BisectionAlgorithm
             if (userInput.Key == ConsoleKey.D1)
             {
                 new InitialGame();
+                return;
             }
 
             if (userInput.Key == ConsoleKey.D2)
             {
                 new HumanPlayer();
+                return;
             }
 
             if (userInput.Key == ConsoleKey.D3)
             {
                 new ComputerPlayer();
+                return;
             }
             if (userInput.Key == ConsoleKey.Q)
             {
