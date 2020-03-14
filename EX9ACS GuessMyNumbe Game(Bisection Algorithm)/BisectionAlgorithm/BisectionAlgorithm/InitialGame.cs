@@ -17,6 +17,8 @@ namespace BisectionAlgorithm
         static InitialGame()
         {
             var check = new CheckNumbers();
+
+            Console.Clear();
             
             Console.WriteLine("I am going to show you how I can guess your number using the bisection algorithm");
             Console.WriteLine("Enter a number between 1-10: ");

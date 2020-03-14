@@ -12,38 +12,41 @@ namespace BisectionAlgorithm
        public int InbetweenNumbersCheck(int a, int b, string input)
         {
             int value = 0;
-            bool returnError = false;
-
+            int guess;
             string userInput = input;
+            bool quickCheck = int.TryParse(userInput, out guess);
 
 
-            do
+            if (quickCheck)
             {
-                bool quickCheck = int.TryParse(userInput, out _);
 
-                if (quickCheck == true)
+                if (quickCheck)
                 {
                     value = int.Parse(userInput);
 
                     if (value >= a && value <= b)
                     {
-                        returnError = true;
+                        quickCheck = true;
                     }
                     else
                     {
                         Console.WriteLine("Numbers provided are out of range. Please provide different numbers: ");
+
                     }
+
                     return value;
                 }
-                else
-                {
-                    Console.WriteLine("Not a valid input. Please try again and provide a integer number: ");
-                }
-            } while (returnError == false);
+            }
+
+            else 
+            {
+
+                Console.WriteLine($"{userInput} is not a valid input. Please try again and provide a integer number: ");
+                
+            }
 
             return value;
 
-        
         }
     }
 }
