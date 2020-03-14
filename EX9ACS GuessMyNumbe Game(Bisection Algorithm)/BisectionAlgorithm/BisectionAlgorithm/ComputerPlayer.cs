@@ -19,24 +19,22 @@ namespace BisectionAlgorithm
     {
         static ComputerPlayer()
         {
+            Console.Clear();
             Console.WriteLine("For this game, you will think of a number between 1 and 100");
             Console.WriteLine("The computer will print it's guess on the screen and you'll reply with");
             Console.WriteLine("L: Too low, H: Too high, C: correct number");
             Console.WriteLine("Hit any key when you are ready to play");
             Console.ReadKey();
+            
+            int[] arr = new int[2]{1, 100};
 
-            int max = 100;
-            int min = 1;  
-
-            int[] arr = new int[2]{min, max};
-
-                for (int i = 0; i < 100; i++)
+                for (int i = 1; i < 100; i++)
                 {
                     
 
                     int guess = BisectionMethod.ComputerGuess(arr[0], arr[1]);
 
-                    Console.WriteLine($"Is your number {guess}");
+                    Console.WriteLine($"\nIs your number {guess}");
 
                          
 
@@ -51,17 +49,19 @@ namespace BisectionAlgorithm
 
                     if (userInput.Key == ConsoleKey.L)
                     {
-                        
+                        arr[0] = (arr[0] + arr[1]) / 2 + 1;
                     }
 
                     if (userInput.Key == ConsoleKey.H)
                     {
-                       
+                        arr[1] = (arr[0] + arr[1]) / 2 - 1;
                     }
 
                     if (userInput.Key == ConsoleKey.C)
                     {
-                        Console.WriteLine($"Yay! I got the answer and it took me {i} tries.");
+                        Console.WriteLine($"\nYay! I got the answer and it took me {i} tries.");
+                        Console.WriteLine("Hit any key return to menu");
+                        Console.ReadKey();
                         break;
                     }
 
