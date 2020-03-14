@@ -8,29 +8,14 @@ namespace BisectionAlgorithm
 {
     public static class BisectionMethod
     {
-        public static int ComputerGuess()
+        public static int ComputerGuess(double a, double b)
         {
-            int maxValue = 100;
-            int minValue = 1;
+            var guessMath = Math.Round((a + b) / 2, 0, MidpointRounding.AwayFromZero);
 
-            Console.WriteLine("Think of a number between 1 and 100 that you want the computer to guess.");
-            Console.WriteLine();
+            int guess = Convert.ToInt32(guessMath);
 
-            int[] numbers = Enumerable.Range(minValue, maxValue).ToArray();
+            return guess;
 
-            bool guessed = true;
-
-            int count = 0;
-
-            int MinMin = 0;
-
-            int MaxMax = maxValue - 1;
-
-            while (guessed)
-            {
-                count++;
-               // NumberGen() = numbers[(MinMin + MaxMax) / 2];
-            }
         }
 
         public static int NumberGen(int a, int b)

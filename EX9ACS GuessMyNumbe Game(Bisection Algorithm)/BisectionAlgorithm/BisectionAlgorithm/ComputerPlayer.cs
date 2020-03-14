@@ -10,6 +10,7 @@
 
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Text;
 
 namespace BisectionAlgorithm
@@ -24,41 +25,48 @@ namespace BisectionAlgorithm
             Console.WriteLine("Hit any key when you are ready to play");
             Console.ReadKey();
 
-            var arr = new Array[100];
-            double maxIteration = Math.Log(arr.Length, 2);
+            int max = 100;
+            int min = 1;  
 
-                for (int i = 0; i < maxIteration; i++)
-                {
-                int guess = BisectionMethod.ComputerGuess(arr[0], arr[100]);
-                var userInput = Console.ReadKey();
+            int[] arr = new int[2]{min, max};
 
-                while (userInput.Key != ConsoleKey.L && userInput.Key != ConsoleKey.H && userInput.Key != ConsoleKey.C)
+                for (int i = 0; i < 100; i++)
                 {
-                    Console.WriteLine();
-                    Console.WriteLine("Invalid input. Try Again.");
-                    userInput = Console.ReadKey();
-                }
+                    
 
-                if (userInput.Key == ConsoleKey.L)
-                {
-                    int guess = BisectionMethod.ComputerGuess(51, 100);
-                    continue;
-                }
+                    int guess = BisectionMethod.ComputerGuess(arr[0], arr[1]);
 
-                if (userInput.Key == ConsoleKey.H)
-                {
-                    int guess = BisectionMethod.ComputerGuess(1, 49);
-                    continue;
-                }
+                    Console.WriteLine($"Is your number {guess}");
 
-                if (userInput.Key == ConsoleKey.C)
-                {
-                    Console.WriteLine($"Yay! I got the answer and it took me {i} tries.");
-                    break;
-                }
+                         
+
+                    var userInput = Console.ReadKey();
+
+                    while (userInput.Key != ConsoleKey.L && userInput.Key != ConsoleKey.H && userInput.Key != ConsoleKey.C)
+                    {
+                        Console.WriteLine();
+                        Console.WriteLine("Invalid input. Try Again.");
+                        userInput = Console.ReadKey();
+                    }
+
+                    if (userInput.Key == ConsoleKey.L)
+                    {
+                        
+                    }
+
+                    if (userInput.Key == ConsoleKey.H)
+                    {
+                       
+                    }
+
+                    if (userInput.Key == ConsoleKey.C)
+                    {
+                        Console.WriteLine($"Yay! I got the answer and it took me {i} tries.");
+                        break;
+                    }
 
                 
-            }
+                }
 
          
         }
