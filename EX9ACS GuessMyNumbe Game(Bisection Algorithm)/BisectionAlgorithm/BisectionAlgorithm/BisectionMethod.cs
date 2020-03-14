@@ -1,50 +1,46 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Linq;
 using System.Text;
 
 namespace BisectionAlgorithm
 {
     public static class BisectionMethod
     {
-        public static int ComputerGuess(int a, int b)
+        public static int ComputerGuess()
         {
-            int min = a;
-            int max = b;
+            int maxValue = 100;
+            int minValue = 1;
 
-            double guess = (min + max) * 0.5 ;
+            Console.WriteLine("Think of a number between 1 and 100 that you want the computer to guess.");
+            Console.WriteLine();
 
-            double math = Math.Round(guess, 0, MidpointRounding.AwayFromZero);
+            int[] numbers = Enumerable.Range(minValue, maxValue).ToArray();
 
-            int computerGuess = Convert.ToInt32(math);
+            bool guessed = true;
 
+            int count = 0;
 
-            return computerGuess;
+            int MinMin = 0;
+
+            int MaxMax = maxValue - 1;
+
+            while (guessed)
+            {
+                count++;
+               // NumberGen() = numbers[(MinMin + MaxMax) / 2];
+            }
         }
 
-        public static int NumberTenGenerator()
+        public static int NumberGen(int a, int b)
         {
            Random random = new Random();
-           int number = random.Next(1, 10);
+           int number = random.Next(a, b);
 
            return number;
-        }
-
-        public static int NumberHundredGenerator()
-        {
-            Random random = new Random();
-            int number = random.Next(1, 100);
-
-            return number;
-        }
-
-        public static int NumberThousandGenerator()
-        {
-            Random random = new Random();
-            int number = random.Next(1, 1000);
-
-            return number;
-        }
+        }  
+        
 
 
     }

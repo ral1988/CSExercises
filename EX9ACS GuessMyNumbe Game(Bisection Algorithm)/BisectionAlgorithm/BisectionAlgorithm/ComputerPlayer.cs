@@ -24,13 +24,12 @@ namespace BisectionAlgorithm
             Console.WriteLine("Hit any key when you are ready to play");
             Console.ReadKey();
 
+            var arr = new Array[100];
+            double maxIteration = Math.Log(arr.Length, 2);
 
-
-            for (int i = 0; i < 1000; i++)
-            {
-
-                Console.WriteLine("Is your number 50?");
-
+                for (int i = 0; i < maxIteration; i++)
+                {
+                int guess = BisectionMethod.ComputerGuess(arr[0], arr[100]);
                 var userInput = Console.ReadKey();
 
                 while (userInput.Key != ConsoleKey.L && userInput.Key != ConsoleKey.H && userInput.Key != ConsoleKey.C)
@@ -42,19 +41,19 @@ namespace BisectionAlgorithm
 
                 if (userInput.Key == ConsoleKey.L)
                 {
-                    int guess = BisectionMethod.ComputerGuess(guess + 1, 100);
+                    int guess = BisectionMethod.ComputerGuess(51, 100);
                     continue;
                 }
 
                 if (userInput.Key == ConsoleKey.H)
                 {
-                    new HumanPlayer();
+                    int guess = BisectionMethod.ComputerGuess(1, 49);
                     continue;
                 }
 
                 if (userInput.Key == ConsoleKey.C)
                 {
-                    new ComputerPlayer();
+                    Console.WriteLine($"Yay! I got the answer and it took me {i} tries.");
                     break;
                 }
 

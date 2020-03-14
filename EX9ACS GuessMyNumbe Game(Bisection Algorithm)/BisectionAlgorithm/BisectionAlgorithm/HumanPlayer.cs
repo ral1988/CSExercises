@@ -22,7 +22,7 @@ namespace BisectionAlgorithm
             
             Console.WriteLine("I am going to show you how I can guess your number using the bisection algorithm");
             Console.WriteLine("Enter a number between 1-1000: ");
-            int numberToGuess = BisectionMethod.NumberThousandGenerator();
+            int numberToGuess = BisectionMethod.NumberGen(1, 1000);
 
                 for (int i = 1; i < 1000; i++) 
                 {
