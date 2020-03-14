@@ -7,12 +7,12 @@ namespace BisectionAlgorithm
 {
     class Menu
     {
-        public Menu()
+        static Menu()
         {
             MenuOptions();
         }
 
-        public void MenuOptions()
+        public static void MenuOptions()
         {
             Console.BackgroundColor = ConsoleColor.DarkBlue;   
             Console.ForegroundColor = ConsoleColor.White;

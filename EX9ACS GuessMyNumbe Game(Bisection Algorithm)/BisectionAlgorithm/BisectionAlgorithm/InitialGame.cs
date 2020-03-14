@@ -49,7 +49,8 @@ namespace BisectionAlgorithm
                     Console.WriteLine("Hit any key to continue");
                     Console.ReadKey();
                     
-                    break;
+                    Console.Clear();
+                    Menu.MenuOptions();
                 }
             }
 

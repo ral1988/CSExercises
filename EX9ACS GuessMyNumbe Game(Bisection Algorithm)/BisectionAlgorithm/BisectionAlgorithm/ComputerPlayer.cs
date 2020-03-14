@@ -62,7 +62,9 @@ namespace BisectionAlgorithm
                         Console.WriteLine($"\nYay! I got the answer and it took me {i} tries.");
                         Console.WriteLine("Hit any key return to menu");
                         Console.ReadKey();
-                        break;
+
+                        Console.Clear();
+                        Menu.MenuOptions();
                     }
 
                 
