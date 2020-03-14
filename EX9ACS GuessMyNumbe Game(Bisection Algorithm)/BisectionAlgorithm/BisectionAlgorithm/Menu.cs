@@ -22,7 +22,7 @@ namespace BisectionAlgorithm
             Console.WriteLine("Which game would you like to play?");
             Console.WriteLine("1. Guess a number between 1 - 10");
             Console.WriteLine("2. Guess a number between 1 - 1000");
-            Console.WriteLine("3. Have the computer guess a number between 1 - 1000");
+            Console.WriteLine("3. Have the computer guess a number between 1 - 100");
             Console.WriteLine("Q. Quit application");
             Console.WriteLine("Selection: ");
             var userInput = Console.ReadKey();
