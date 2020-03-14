@@ -8,10 +8,7 @@
 //against invalid input from the user.
 //
 
-
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace BisectionAlgorithm
 {
@@ -53,7 +50,6 @@ namespace BisectionAlgorithm
                     Menu.MenuOptions();
                 }
             }
-
         }
     }
 }
