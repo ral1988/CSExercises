@@ -9,21 +9,19 @@
   },
   "packageFolders": {
     "C:\\Users\\ryana\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "B:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "B:\\MSSA\\ISTA 220 (C#)\\Exercise\\EX2ACSMathematicalFormulas\\EX2ACSMathematicalFormulas\\EX2ACSMathematicalFormulas.csproj",
+      "projectUniqueName": "B:\\GitHub\\CSExercises\\EX2ACSMathematicalFormulas\\EX2ACSMathematicalFormulas\\EX2ACSMathematicalFormulas.csproj",
       "projectName": "EX2ACSMathematicalFormulas",
-      "projectPath": "B:\\MSSA\\ISTA 220 (C#)\\Exercise\\EX2ACSMathematicalFormulas\\EX2ACSMathematicalFormulas\\EX2ACSMathematicalFormulas.csproj",
+      "projectPath": "B:\\GitHub\\CSExercises\\EX2ACSMathematicalFormulas\\EX2ACSMathematicalFormulas\\EX2ACSMathematicalFormulas.csproj",
       "packagesPath": "C:\\Users\\ryana\\.nuget\\packages\\",
-      "outputPath": "B:\\MSSA\\ISTA 220 (C#)\\Exercise\\EX2ACSMathematicalFormulas\\EX2ACSMathematicalFormulas\\obj\\",
+      "outputPath": "B:\\GitHub\\CSExercises\\EX2ACSMathematicalFormulas\\EX2ACSMathematicalFormulas\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "B:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
         "C:\\Users\\ryana\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -35,8 +33,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://dotnet.myget.org/F/roslyn/api/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
@@ -66,7 +63,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
       }
     }
   }
