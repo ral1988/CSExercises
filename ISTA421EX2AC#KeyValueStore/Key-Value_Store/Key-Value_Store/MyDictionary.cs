@@ -12,7 +12,7 @@ namespace Key_Value_Store
             set 
             { 
                 bool hasFound = false; 
-                for (int i = 0; i < intTrack && hasFound!; ++i) 
+                for (int i = 0; i < intTrack && !hasFound; ++i) 
                 {
                     if (keyValues[i].key == searchKey)
                     {
