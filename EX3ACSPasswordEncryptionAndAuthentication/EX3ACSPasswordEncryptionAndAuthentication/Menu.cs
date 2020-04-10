@@ -12,6 +12,13 @@ namespace EX3ACSPasswordEncryptionAndAuthentication
     {
         public Menu()
         {
+            var createAccount = new CreateAccount();
+            var authenticate = new Authenticate();
+            
+            Console.Clear();
+
+            Dictionary<string, string> tmpDict = new Dictionary<string, string>();
+
             while (true)
             {
                 Console.Title = "EX 3A CS: Password Encryption and Authentication";
@@ -49,7 +56,7 @@ namespace EX3ACSPasswordEncryptionAndAuthentication
                     {
                         Thread.Sleep(200);
                         Console.Clear();
-                        var createAccount = new CreateAccount();
+                        tmpDict = createAccount.CreateAccountPage();
                         Console.Clear();
                         continue;
                     }
@@ -57,7 +64,8 @@ namespace EX3ACSPasswordEncryptionAndAuthentication
                     {
                         Thread.Sleep(200);
                         Console.Clear();
-                        var authenticate = new Authenticate();
+                        authenticate.AuthenticatePage(tmpDict);
+                        Console.Clear();
                         continue;
                     }
                     case ConsoleKey.D3:

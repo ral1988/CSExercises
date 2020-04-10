@@ -8,10 +8,19 @@ namespace EX3ACSPasswordEncryptionAndAuthentication
     {
         public CreateAccount()
         {
+
+        }
+
+        public Dictionary<string, string> CreateAccountPage()
+        {
             Dictionary<string, string> accountInfoDict = new Dictionary<string, string>();
             Console.WriteLine("Welcome to the account creation page");
             Console.WriteLine("Enter your username: ");
             var userName = Console.ReadLine();
+            if (userName == null)
+            {
+
+            }
             passwordSection:
             Console.WriteLine("Enter your password: ");
             var password = Console.ReadLine();
@@ -24,6 +33,8 @@ namespace EX3ACSPasswordEncryptionAndAuthentication
                 goto passwordSection;
             }
 
+            accountInfoDict[userName] = password;
+            return accountInfoDict;
 
         }
     }
