@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Transactions;
 
 namespace EX3ACSPasswordEncryptionAndAuthentication
 {
@@ -6,7 +8,23 @@ namespace EX3ACSPasswordEncryptionAndAuthentication
     {
         public CreateAccount()
         {
-            Console.WriteLine("create account");
+            Dictionary<string, string> accountInfoDict = new Dictionary<string, string>();
+            Console.WriteLine("Welcome to the account creation page");
+            Console.WriteLine("Enter your username: ");
+            var userName = Console.ReadLine();
+            passwordSection:
+            Console.WriteLine("Enter your password: ");
+            var password = Console.ReadLine();
+            Console.WriteLine("Please confirm your password: ");
+            var passwordCheck = Console.ReadLine();
+
+            if (password != passwordCheck)
+            {
+                Console.WriteLine("Your passwords do not match.");
+                goto passwordSection;
+            }
+
+
         }
     }
 }

@@ -14,6 +14,8 @@ namespace EX3ACSPasswordEncryptionAndAuthentication
         {
             while (true)
             {
+                Console.Title = "EX 3A CS: Password Encryption and Authentication";
+                Console.SetWindowSize(65, 27);
                 string dashes = string.Concat(Enumerable.Repeat('-', 60));
                 Console.WriteLine(dashes);
                 Console.Write("\r\n" +
@@ -48,7 +50,7 @@ namespace EX3ACSPasswordEncryptionAndAuthentication
                         Thread.Sleep(200);
                         Console.Clear();
                         var createAccount = new CreateAccount();
-                        Console.ReadKey();
+                        Console.Clear();
                         continue;
                     }
                     case ConsoleKey.D2:
