@@ -4,7 +4,7 @@ namespace EX3ACSPasswordEncryptionAndAuthentication
 {
     public class Authenticate
     {
-        Authenticate()
+        public Authenticate()
         {
             Console.WriteLine("authenticate");
         }   

@@ -27,8 +27,7 @@ namespace EX3ACSPasswordEncryptionAndAuthentication
     {
         static void Main(string[] args)
         {
-            var menu = new Menu();
-            
+            new EX3ACSPasswordEncryptionAndAuthentication.Menu();
         }
     }
 }
