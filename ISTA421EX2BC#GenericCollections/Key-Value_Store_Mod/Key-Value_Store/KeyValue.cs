@@ -1,14 +1,14 @@
 ﻿namespace Key_Value_Store
 {
-    public struct KeyValue
+    //passing it as an object
+    public struct KeyValue<T>
     {
-        public readonly string key; 
-        public readonly object value;
-        
-        public KeyValue(string key, object value)
+        public readonly string Key;
+        public T Value { get; }
+        public KeyValue(string setKey, T setValue)
         {
-            this.key = key;
-            this.value = value;
+            Key = setKey;
+            Value = setValue;
         }
         
     }

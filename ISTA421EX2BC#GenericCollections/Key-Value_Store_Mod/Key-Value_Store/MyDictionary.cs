@@ -14,7 +14,7 @@ namespace Key_Value_Store
                 bool hasFound = false; 
                 for (int i = 0; i < intTrack && !hasFound; ++i) 
                 {
-                    if (keyValues[i].key == searchKey)
+                    if (keyValues[i].Key == searchKey)
                     {
                         hasFound = true;
                         keyValues[i] = new KeyValue(searchKey, value);
@@ -31,8 +31,8 @@ namespace Key_Value_Store
             {
                 for (int i = 0; i < intTrack; ++i)
                 {
-                    if (keyValues[i].key == searchKey)
-                        return keyValues[i].value;
+                    if (keyValues[i].Key == searchKey)
+                        return keyValues[i].Value;
                 }
 
                 throw new KeyNotFoundException($"Didn't find \"{searchKey}\" in MyDictionary");
