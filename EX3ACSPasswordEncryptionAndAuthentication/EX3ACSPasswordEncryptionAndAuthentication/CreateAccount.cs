@@ -6,7 +6,7 @@ using System.Transactions;
 
 namespace EX3ACSPasswordEncryptionAndAuthentication
 {
-    public class CreateAccount
+    public class CreateAccount 
     {
         public CreateAccount()
         {

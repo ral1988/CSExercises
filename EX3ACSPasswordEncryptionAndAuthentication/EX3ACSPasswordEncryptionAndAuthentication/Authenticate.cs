@@ -5,7 +5,7 @@ using System.Security.Cryptography;
 
 namespace EX3ACSPasswordEncryptionAndAuthentication
 {
-    public class Authenticate : IComparable
+    public class Authenticate 
     {
         public Authenticate() 
         {
@@ -33,31 +33,22 @@ namespace EX3ACSPasswordEncryptionAndAuthentication
 
                 authDict[userNameAuthHash] = passwordAuthHash;
 
-                StringComparer comparer = StringComparer.OrdinalIgnoreCase;
-
-                if (0 == comparer.Compare(authDict, comparableDict))
+                foreach (var (key, s) in comparableDict)
                 {
-                    Console.WriteLine("Authenticated");
-                    Console.ReadKey();
-                }
+                    string value = s;
+                    if (authDict.TryGetValue(key, out value))
+                    {
+                        if (value != s)
+                        {
+                            Console.WriteLine("Username and/or password is not correct");
+                            Console.ReadKey();
+                        }
 
-                else 
-                {
-                    Console.WriteLine("Username and/or password is not correct");
-                    Console.ReadKey();
+                        Console.WriteLine("Authenticated");
+                        Console.ReadKey();
+                    }
                 }
-
             }
         }
-
-       public int CompareTo(Dictionary<string, string> dictionary)
-       {
-           throw new NotImplementedException();
-       }
-
-       public int CompareTo(object? obj)
-       {
-           throw new NotImplementedException();
-       }
     }
 }
