@@ -33,12 +33,12 @@ namespace EX3ACSPasswordEncryptionAndAuthentication
 
                 authDict[userNameAuthHash] = passwordAuthHash;
 
-                foreach (var (key, s) in comparableDict)
+                foreach (var keyPair in comparableDict)
                 {
-                    string value = s;
-                    if (authDict.TryGetValue(key, out value))
+                    string value;
+                    if (authDict.TryGetValue(keyPair.Key, out value))
                     {
-                        if (value != s)
+                        if (value != keyPair.Value)
                         {
                             Console.WriteLine("Username and/or password is not correct");
                             Console.ReadKey();

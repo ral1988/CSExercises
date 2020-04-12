@@ -46,6 +46,13 @@ namespace EX3ACSPasswordEncryptionAndAuthentication
                 string passwordHash = getMD5.MakeMd5Hash(MD5Hash, password);
 
                 accountInfoDict[userHash] = passwordHash;
+
+                Console.WriteLine($"Your username: {userName} \nYour password: {password}");
+                Console.WriteLine($"Your hashed username: {userHash} \nYour hashed password: {passwordHash}");
+
+                Console.ReadKey();
+
+
                 return accountInfoDict;
             }
             
