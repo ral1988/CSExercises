@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Key_Value_Store
+﻿namespace Key_Value_Store
 {
     static class Program
     {
