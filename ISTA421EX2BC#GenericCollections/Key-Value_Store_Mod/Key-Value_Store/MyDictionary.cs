@@ -5,7 +5,7 @@ namespace Key_Value_Store
 {
     public class MyDictionary
     {
-        KeyValue[] keyValues = new KeyValue[16];
+        KeyValue<> keyValues = new KeyValue<>[16];
         int intTrack = 0; 
         public Object this[string searchKey] 
         { 
