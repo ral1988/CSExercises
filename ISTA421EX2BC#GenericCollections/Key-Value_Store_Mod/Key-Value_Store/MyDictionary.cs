@@ -5,28 +5,30 @@ using System.Linq;
 
 namespace Key_Value_Store
 {
-    public class MyDictionary : IEnumerable<KeyValue<object>>
+    public class MyDictionary<KeyType, ValueType> 
+        : IEnumerable<KeyValue<KeyType, ValueType>> where KeyType 
+        : IComparable<KeyType>
     {
-        private KeyValue<object>[] keyValues = new KeyValue<Object>[64];
+        private KeyValue<KeyType, ValueType>[] _keyValues = new KeyValue<KeyType, ValueType>[64];
         private int intTrack = 0; 
 
-        public Object this[string searchKey] 
+        public ValueType this[KeyType keytype] 
         { 
             set 
             { 
                 bool hasFound = false; 
                 for (int i = 0; i < intTrack && !hasFound; ++i) 
                 {
-                    if (keyValues[i].Key == searchKey)
+                    if (_keyValues[i].Key.Equals(keytype))
                     {
                         hasFound = true;
-                        keyValues[i] = new KeyValue<Object>(searchKey, value);
+                        _keyValues[i] = new KeyValue<KeyType, ValueType>(keytype, value);
                     }
                 }
 
                 if (!hasFound)
                 {
-                    keyValues[intTrack++] = new KeyValue<object>(searchKey, value);
+                    _keyValues[intTrack++] = new KeyValue<KeyType, ValueType>(keytype, value);
                 }
 
             }
@@ -34,15 +36,15 @@ namespace Key_Value_Store
             {
                 for (int i = 0; i < intTrack; ++i)
                 {
-                    if (keyValues[i].Key == searchKey)
-                        return keyValues[i].Value;
+                    if (_keyValues[i].Key.Equals(keytype))
+                        return _keyValues[i].Value;
                 }
 
-                throw new KeyNotFoundException($"Didn't find \"{searchKey}\" in MyDictionary");
+                throw new KeyNotFoundException($"Didn't find \"{keytype}\" in MyDictionary");
             }
         }
 
-        public IEnumerator<KeyValue<object>> GetEnumerator()
+        public IEnumerator<KeyValue<KeyType, ValueType>> GetEnumerator()
         {
             throw new NotImplementedException();
         }

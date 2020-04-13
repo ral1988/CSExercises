@@ -6,7 +6,7 @@ namespace Key_Value_Store
     {
         public App()
         {
-            MyDictionary d = new MyDictionary();
+            var d = new MyDictionary<KeyValue<KeyType, ValueType>>();
             try 
             {
                 Console.WriteLine(d["Cats"]);
@@ -21,5 +21,9 @@ namespace Key_Value_Store
             
             Console.WriteLine ($"{(int)d["Cats"]}, {(int)d["Dogs"]}");
         }
+    }
+
+    public struct KeyType
+    {
     }
 }
