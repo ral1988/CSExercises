@@ -1,12 +1,15 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Key_Value_Store
 {
-    public class MyDictionary
+    public class MyDictionary : IEnumerable<KeyValue<object>>
     {
-        KeyValue<> keyValues = new KeyValue<>[16];
-        int intTrack = 0; 
+        private KeyValue<object>[] keyValues = new KeyValue<Object>[64];
+        private int intTrack = 0; 
+
         public Object this[string searchKey] 
         { 
             set 
@@ -17,13 +20,13 @@ namespace Key_Value_Store
                     if (keyValues[i].Key == searchKey)
                     {
                         hasFound = true;
-                        keyValues[i] = new KeyValue(searchKey, value);
+                        keyValues[i] = new KeyValue<Object>(searchKey, value);
                     }
                 }
 
                 if (!hasFound)
                 {
-                    keyValues[intTrack++] = new KeyValue(searchKey, value);
+                    keyValues[intTrack++] = new KeyValue<object>(searchKey, value);
                 }
 
             }
@@ -37,6 +40,16 @@ namespace Key_Value_Store
 
                 throw new KeyNotFoundException($"Didn't find \"{searchKey}\" in MyDictionary");
             }
+        }
+
+        public IEnumerator<KeyValue<object>> GetEnumerator()
+        {
+            throw new NotImplementedException();
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return GetEnumerator();
         }
     }
 }

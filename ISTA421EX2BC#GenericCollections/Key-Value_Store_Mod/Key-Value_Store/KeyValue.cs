@@ -4,7 +4,7 @@
     public struct KeyValue<T>
     {
         public readonly string Key;
-        public T Value { get; }
+        public readonly T Value;
         public KeyValue(string setKey, T setValue)
         {
             Key = setKey;
